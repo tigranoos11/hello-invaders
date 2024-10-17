@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSprites:
-  - {fileID: 21300000, guid: c412b29bc09b1864481ac6bc6f9b1bef, type: 3}
-  - {fileID: 21300000, guid: 4766ca6932f3e7c47bba8b6119d34991, type: 3}
+  - {fileID: 21300000, guid: ddd16ed1ef9ae28499f2cee4d7800e76, type: 3}
+  - {fileID: 21300000, guid: 5731284b3951e284b920f9794fe47c1e, type: 3}
   animationTime: 1
 --- !u!212 &352502630098127690
 SpriteRenderer:
