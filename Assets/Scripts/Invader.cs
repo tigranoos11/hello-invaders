@@ -14,7 +14,7 @@ public class Invader : MonoBehaviour
     public float animationTime;
 
     SpriteRenderer spRend;
-    int animationFrame;
+    int animationFrame; 
     // Start is called before the first frame update
 
     private void Awake()
