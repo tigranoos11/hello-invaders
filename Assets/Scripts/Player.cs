@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         {
             laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
 
-            shootSound.Play();
+            shootSound.Play();  
 
         }
     }
