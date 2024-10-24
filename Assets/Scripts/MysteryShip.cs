@@ -83,10 +83,11 @@ public class MysteryShip : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Laser"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Laser"))
         {
             SetInvisible();
             GameManager.Instance.OnMysteryShipKilled(this);
         }
     }
+    
 }
