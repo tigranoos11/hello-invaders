@@ -7,6 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class Player : MonoBehaviour
 {
+    public ScreenShake screenShake;
     public Laser laserPrefab;
     Laser laser;
     float speed = 5f;
@@ -44,7 +45,8 @@ public class Player : MonoBehaviour
         {
             laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
 
-            shootSound.Play();  
+            shootSound.Play();
+            screenShake.TriggerShake();
 
         }
     }

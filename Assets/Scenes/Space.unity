@@ -346,6 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93fea8639293a3a4a9f2322c855bfb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenShake: {fileID: 519420033}
   laserPrefab: {fileID: -3004967987676308051, guid: a8f22cb6bacdb4647877174295dfa33c, type: 3}
   shootSound: {fileID: 255120947}
 --- !u!82 &255120947
@@ -626,6 +627,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -707,6 +709,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bf13d5ec2af39409343b37446f8ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 519420032}
+  shakeDuration: 0.2
+  shakeMagnitude: 0.7
+  dampingSpeed: 1
 --- !u!1 &1519438227
 GameObject:
   m_ObjectHideFlags: 0
