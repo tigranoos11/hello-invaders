@@ -44,7 +44,7 @@ public class StartButtonScript : MonoBehaviour
         }
     }
 
-    void OnButtonClick()
+    public void OnButtonClick()
     {
         // Load the next scene when the button is clicked
         SceneManager.LoadScene(1);
