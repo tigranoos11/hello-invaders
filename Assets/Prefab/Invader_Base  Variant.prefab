@@ -13,6 +13,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2142688286710187299, guid: f199d98061cb86641b87c258cf572756, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142688286710187299, guid: f199d98061cb86641b87c258cf572756, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.5
       objectReference: {fileID: 0}
@@ -91,6 +95,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationSprites:
-  - {fileID: 21300000, guid: d8fd5b873d6334d43bbaf29681d5eb20, type: 3}
-  - {fileID: 21300000, guid: 706fd5313ee4bdb46952c3adbeaedc57, type: 3}
+  - {fileID: 6149794479887489204, guid: 71403fb6dba46884ca67864ebd82174c, type: 3}
+  - {fileID: -1024979125914592505, guid: 71403fb6dba46884ca67864ebd82174c, type: 3}
   animationTime: 1
