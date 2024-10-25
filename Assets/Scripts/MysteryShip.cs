@@ -78,7 +78,16 @@ public class MysteryShip : MonoBehaviour
     {
         direction *= -1; //Ändrar riktningen
 
+        Flip();
+
         isVisible = true;
+    }
+    void Flip()
+    {
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
+        //gör så att den kan vända sig om när den åker fram och tillbaka
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
